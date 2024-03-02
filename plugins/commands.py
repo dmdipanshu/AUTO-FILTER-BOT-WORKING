@@ -43,17 +43,15 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-                    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    
                 ],[
-                    InlineKeyboardButton('📽️  ᴄʜᴀɴɴᴇʟ📽️ ', url=CHNL_LNK),
-                    InlineKeyboardButton('🎭  ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ 🎭 ', url="https://t.me/filmytak_official")
+                    
                 ],[
                     InlineKeyboardButton('💎  ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 💎 ', callback_data='paid')
                 ],[
-                    InlineKeyboardButton('👻 ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 ᴀʙᴏᴜᴛ', callback_data='about')
+                    
                 ],[
-                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💰', callback_data="shortlink_info")
+                    
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAJnLmTuFB3tbjsPSKlQYaKfUux_RBtzAAIEAAPBJDExieUdbguzyBAeBA") 
@@ -96,17 +94,15 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-                    InlineKeyboardButton('⤬ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    
                 ],[
-                    InlineKeyboardButton('📽️  ᴄʜᴀɴɴᴇʟ📽️ ', url=CHNL_LNK),
-                    InlineKeyboardButton('🎭  ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴘ 🎭 ', url="https://t.me/filmytak_official")
+                    
                 ],[
                     InlineKeyboardButton('💎  ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 💎 ', callback_data='paid')
                 ],[
-                    InlineKeyboardButton('👻 ʜᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 ᴀʙᴏᴜᴛ', callback_data='about')
+                 
                 ],[
-                    InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💰', callback_data="shortlink_info")
+                    
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
