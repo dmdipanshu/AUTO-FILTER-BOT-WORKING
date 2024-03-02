@@ -290,6 +290,7 @@ async def start(client, message):
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                     ], [
                         InlineKeyboardButton('🤷‍♂️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤷‍♂️', url="t.me/filmytak_official/15")
+                    ], [    
                         InlineKeyboardButton('💎  ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 💎 ', callback_data='paid')
                     ]
                 ]
@@ -374,6 +375,8 @@ async def start(client, message):
                             InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                         ], [
                             InlineKeyboardButton('🤷‍♂️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤷‍♂️', url="t.me/filmytak_official/15")
+                        ], [
+                            InlineKeyboardButton('💎  ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 💎 ', callback_data='paid')
                         ]
                     ]
                 )
