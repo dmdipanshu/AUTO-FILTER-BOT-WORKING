@@ -269,7 +269,7 @@ async def start(client, message):
                     ], [
                         InlineKeyboardButton('🤷‍♂️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤷‍♂️', url="t.me/filmytak_official/15")
                     ], [
-                        InlineKeyboardButton('💎  ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 💎 ', callback_data='hiii contact @seller360_bot')
+                        InlineKeyboardButton('💎  ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 💎 ', 'hiiii @seller360_bot')
                     ]
                 ]
             )
@@ -292,7 +292,7 @@ async def start(client, message):
                     ], [
                         InlineKeyboardButton('🤷‍♂️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤷‍♂️', url="t.me/filmytak_official/15")
                     ], [    
-                        InlineKeyboardButton('💎  ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 💎 ',callback_data='hiii contact @seller360_bot')
+                        InlineKeyboardButton('💎  ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 💎 ', 'hiiii @seller360_bot')
                     ]
                 ]
             )
@@ -377,7 +377,7 @@ async def start(client, message):
                         ], [
                             InlineKeyboardButton('🤷‍♂️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤷‍♂️', url="t.me/filmytak_official/15")
                         ], [
-                            InlineKeyboardButton('💎  ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 💎 ', callback_data='hiii contact @seller360_bot')
+                            InlineKeyboardButton('💎  ᴘʀᴇᴍɪᴜᴍ ᴍᴇᴍʙᴇʀꜱʜɪᴘ 💎 ', 'hiiii @seller360_bot')
                         ]
                     ]
                 )
